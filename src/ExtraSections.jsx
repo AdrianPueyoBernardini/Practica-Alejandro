@@ -4,12 +4,13 @@ import { useState } from 'react'
 
 export function NameSection() {
   return (
-    <>
     <div className="name-section">
-      <button type="button">Alejandro Sanz</button>
-    </div>  
-    </>
-
+      <input
+        type="text"
+        placeholder="Alejandro Sanz"
+        aria-label="Nombre"
+      />
+    </div>
   )
 }
 
