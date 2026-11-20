@@ -4,9 +4,12 @@ import { useState } from 'react'
 
 export function NameSection() {
   return (
+    <>
     <div className="name-section">
       <button type="button">Alejandro Sanz</button>
-    </div>
+    </div>  
+    </>
+
   )
 }
 
